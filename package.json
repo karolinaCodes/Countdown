@@ -1,0 +1,12 @@
+{
+  "name": "countdown-project",
+  "version": "1.0.0",
+  "description": "Countdown",
+  "main": "script.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "",
+  "license": "ISC"
+}

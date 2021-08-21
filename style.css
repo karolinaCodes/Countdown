@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Katibeh&family=Poppins:wght@500&display=swap");
+
+body {
+  background-image: url(./img/mountains.jpg);
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 4rem;
+  margin-top: -10rem;
+  color: #f5f5f5;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.countdown-container {
+  display: flex;
+  color: #f5f5f5;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+
+.big-text {
+  font-weight: bold;
+  font-size: 10rem;
+  line-height: 1;
+  margin: 0 2rem;
+}
+
+.countdown-el {
+  text-align: center;
+}
+
+.countdown-el span {
+  font-size: 1.5rem;
+}
+
+.form {
+  font-size: large;
+  color: white(56, 56, 56);
+  border: 2px solid rgba(255, 255, 255, 0.76);
+  padding: 7px;
+  padding-right: 13px;
+  padding-left: 13px;
+  border-radius: 15px;
+  margin: 5px;
+}
+
+select {
+  padding: 3px;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  background-color: #c0c5c8;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+footer {
+  position: relative;
+  top: 300px;
+}
+
+.form-text {
+  color: rgba(255, 255, 255, 0.76);
+  font-weight: lighter;
+}
+
+button {
+  padding: 3px;
+  font-family: "Poppins", sans-serif;
+  color: rgba(255, 255, 255, 0.76);
+  background-color: transparent;
+  border-radius: 5px;
+  margin: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.76);
+  cursor: pointer;
+  padding: 5px;
+}
+
+.error {
+  position: absolute;
+  color: rgb(255 64 64 / 76%);
+  margin-left: 20px;
+  margin-top: 5px;
+}
